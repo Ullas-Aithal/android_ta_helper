@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/colorBlack"
+    android:alpha="0.8"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Student List: CS442"
+        android:id="@+id/gradeStudentListTextView"
+
+        android:gravity="center"
+
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorSilver"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSilver"
+        android:id="@+id/gradeStudentListSearchBar" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Space>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gradeStudentListView"
+        android:divider="#ffffff"
+        android:dividerHeight="1dp"
+        />
+
+</LinearLayout>

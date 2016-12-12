@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cs442.team4.tahelper.CourseActivity"
+    android:windowSoftInputMode="adjustPan|adjustResize"
+    android:background="@drawable/amanage_assignments"
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/course_activity_frame_layout">
+
+        <!--<fragment-->
+            <!--android:name = "com.cs442.team4.tahelper.course_list_fragment"-->
+            <!--android:layout_width="371dp"-->
+            <!--android:layout_height="491dp"-->
+            <!--tools:layout="@layout/add_course">-->
+
+        <!--</fragment>-->
+    </FrameLayout>
+
+</RelativeLayout>

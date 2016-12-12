@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@color/colorBlack"
+    android:alpha="0.8"
+    android:layout_marginTop="?attr/actionBarSize"
+    >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Enter Module Name "
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/enterModuleNameFragmentView"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+           />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></Space>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Enter Module Weightage "
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/enterModuleWeightage"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:inputType="numberDecimal"
+            />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></Space>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" ADD Module"
+            android:textSize="20dp"
+            android:id="@+id/addModuleButtonFragmentView"
+            android:background="@color/colorMaroon"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+      />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></Space>
+
+       <!-- <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" BACK TO MODULE LIST"
+            android:textSize="20dp"
+            android:id="@+id/addModuleButtonFragmentViewBackButton"
+            android:background="@color/colorMaroon"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        />-->
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@color/colorBlack"
+    android:alpha="0.8"
+    android:layout_marginTop="?attr/actionBarSize">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Enter Module Name "
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/edit_text"
+            android:id="@+id/editDeleteModuleNameFragmentEditTextView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></Space>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Enter Module Weightage "
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/edit_text"
+            android:id="@+id/editDeleteModuleWeightageFragmentEditTextView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:inputType="numberDecimal"
+            />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" Edit "
+            android:textSize="20dp"
+            android:id="@+id/editModuleButtonFragmentView"
+            android:background="@color/colorMaroon"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" Delete "
+            android:textSize="20dp"
+            android:id="@+id/deleteModuleButtonFragmentView"
+            android:background="@color/colorMaroon"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+         />
+        </LinearLayout>
+
+
+       <!-- <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" BACK TO MODULE LIST"
+            android:textSize="20dp"
+            android:id="@+id/editDeleteModuleFragmentListViewBackButton"
+            android:background="@color/colorMaroon"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>-->
+
+</LinearLayout>

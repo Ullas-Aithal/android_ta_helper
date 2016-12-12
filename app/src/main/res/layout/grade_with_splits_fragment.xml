@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/colorBlack"
+    android:alpha="0.8"
+    android:weightSum="1"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:weightSum="1">
+
+        <TextView
+            android:text="mshethwa"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/gradeWithSplitsStudentId"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorSilver"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Total Score: "
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView16"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorSilver"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/gradeWithSplitsTotalEditText"
+            android:layout_weight="0.36"
+            android:gravity="center"
+            android:text="0.0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorMaroon"
+            android:background="@color/colorMetallicSilver"
+            android:editable="false" />
+
+        <TextView
+            android:text="/ 20"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:id="@+id/maxPointsTextView"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorSilver"
+            android:layout_weight="0.52" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Space>
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMaroon"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/gradeWithSplitsSubmitButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:descendantFocusability="afterDescendants"
+        android:focusable="false"
+        android:id="@+id/gradeWithListListView"
+        android:divider="#ffffff"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:text="Calculate Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMaroon"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/gradeWithSplitsCalculateTotalButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+</LinearLayout>

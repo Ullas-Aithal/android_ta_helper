@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="2sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_name_tv_layout"
+                android:textSize="18sp"
+                android:layout_toStartOf="@+id/manage_course_btn_layout"
+                android:layout_alignBottom="@+id/manage_course_btn_layout"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/colorBrightWhite"
+                android:paddingRight="20sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle"
+            android:layout_marginLeft="-10sp">
+
+            <Button
+                android:id="@+id/manage_course_btn_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:text="Manage"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#fe4242" />
+            <Button
+                android:text="Edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_course_btn_layout"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#fe4242" />
+            <Button
+                android:text="Grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grade_course_btn_layout"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#fe4242"/>
+
+            <Button
+                android:text="Delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_course_btn_layout"
+
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#fe4242" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

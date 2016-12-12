@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:id="@+id/assignmentName"
+        android:textSize="20dp"
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fe4242"
+
+        android:text="Assignment 1" />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="4.43"
+        android:id="@+id/assignmentScore"
+        android:textSize="18sp"
+        android:gravity="center_vertical|right"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fe4242"
+
+        android:text="10/15" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:paddingTop="60sp"
+    android:weightSum="10">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Generate Students Groups"
+        android:textColor="@color/colorSilver"
+        android:textSize="25dp"
+        android:textStyle="normal|bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Space>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6sp"
+        android:layout_marginRight="6sp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/groupSizeTxtEdt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorSilver"
+            android:ems="10"
+            android:hint="group size?"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack" />
+
+
+        <Button
+            android:id="@+id/generateGroupsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorMaroon"
+            android:text="Generate"
+            android:textColor="@color/colorBrightWhite" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Space>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="15dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:weightSum="1.5">
+
+
+         <EditText
+             android:id="@+id/groupSizeTxtEdt"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="20dp"
+             android:layout_weight="0.5"
+             android:background="@drawable/edit_text"
+             android:ems="10"
+             android:hint="group size?"
+             android:inputType="numberSigned"
+             android:textAlignment="center"
+             android:textColor="@color/colorBlack" />
+
+         <Button
+             android:id="@+id/generateGroupsBtn"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_weight="1"
+             android:background="@color/colorMaroon"
+             android:gravity="center"
+             android:text="Generate"
+             android:textColor="@color/colorWhite"
+             android:textSize="20dp" />
+
+     </LinearLayout>
+ -->
+
+    <ListView
+        android:id="@+id/studentLstView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6sp"
+        android:layout_marginRight="6sp"
+        android:layout_marginTop="20dp"
+        android:divider="#ffffff"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

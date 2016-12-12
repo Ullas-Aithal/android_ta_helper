@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "156670583096",
+    "firebase_url": "https://fir-ta-helper.firebaseio.com",
+    "project_id": "firebase-ta-helper",
+    "storage_bucket": "firebase-ta-helper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156670583096:android:3ef62655722e1273",
+        "android_client_info": {
+          "package_name": "com.cs442.team4.tahelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156670583096-ipnhhf5mkbknmddfe7d8hkeqkl0r2non.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs442.team4.tahelper",
+            "certificate_hash": "75650B505C8438E9C00261FB353467EEF73C2F48"
+          }
+        },
+        {
+          "client_id": "156670583096-b9mnbt59qct6ejbb1t9vul61mfb6praq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs442.team4.tahelper",
+            "certificate_hash": "0CA8EE568888F88CA442EAB7DBA70690406ED035"
+          }
+        },
+        {
+          "client_id": "156670583096-0i19jg6b159pbdi31ras8nlgo5gq86li.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs442.team4.tahelper",
+            "certificate_hash": "D7B40D978E770B9BAC2E50EB1C0901FC25E5B507"
+          }
+        },
+        {
+          "client_id": "156670583096-aukn5s56vqhusj46iqdpdbq8vqk30jnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs442.team4.tahelper",
+            "certificate_hash": "F5032C25922342F011848BDA624215C39AC7A4F9"
+          }
+        },
+        {
+          "client_id": "156670583096-h268qnra99r82bqro0snosbnsuueakoh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "156670583096-cncdbor3hsh73vel2p2m490hgvufd4qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4oZ4IGKoXRPmI4Z9C1Bjto0jGuTZX3YA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156670583096-h268qnra99r82bqro0snosbnsuueakoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

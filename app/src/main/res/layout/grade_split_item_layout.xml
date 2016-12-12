@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Split 1: "
+        android:layout_width="133dp"
+        android:layout_height="match_parent"
+        android:id="@+id/gradeSplitTextView"
+        android:textSize="18sp"
+        android:textColor="#fe4242"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:background="@color/colorMetallicSilver"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/gradeSplitEditText"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#fe4242"
+
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:text="/ 5"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:id="@+id/maxSplitPointsTextView"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#fe4242"
+        android:layout_weight="0.31" />
+
+</LinearLayout>
